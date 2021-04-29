@@ -8,8 +8,7 @@ const PORT = process.env.PORT || 5000;
 // let data = JSON.parse(jsonFile);
 
 app.get("/", (req, res) => {
-    res.send(data);
-    // console.log(data);
+    res.status(200).send(data);
 });
 
 app.get('/single/:id',(req,res)=>{
@@ -19,7 +18,7 @@ app.get('/single/:id',(req,res)=>{
 
 
 app.listen(PORT, function () {
-    console.log(`Express server listening on port ${PORT}`);
+    console.log(`Server listening on port ${PORT}`);
 });
 
 
