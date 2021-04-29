@@ -1,0 +1,31 @@
+{
+  "name": "deployapp",
+  "version": "1.0.0",
+  "description": "deployer application with Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MS-brahim/deployApp.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "JSON",
+    "Docker",
+    "Expressjs",
+    "CI/CD",
+    "API"
+  ],
+  "author": "Brahim & Noufal & Mohamed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MS-brahim/deployApp/issues"
+  },
+  "homepage": "https://github.com/MS-brahim/deployApp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
