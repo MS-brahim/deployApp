@@ -4,7 +4,7 @@
   "description": "deployer application with Docker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "nodemon app.js"
   },
   "repository": {
@@ -26,6 +26,11 @@
   },
   "homepage": "https://github.com/MS-brahim/deployApp#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mocha": "^8.3.2",
+    "nodemon": "^2.0.7"
   }
 }

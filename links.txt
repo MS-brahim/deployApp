@@ -1,0 +1,3 @@
+deployment back-end : 
+https://work-in-machine.herokuapp.com/
+https://work-in-machine.herokuapp.com/single/id
